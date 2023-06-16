@@ -1,0 +1,11 @@
+create database zillionsoftech;
+show databases;
+use zillionsoftech;
+create table student(
+	id int,
+    name varchar(30),
+    course text(50),
+    contact varchar(13)
+);
+show tables;
+desc student;
